@@ -5,7 +5,7 @@ class Solution:
             mergedOutput.append(a)
             mergedOutput.append(b)
         
-        #zip() combines the elements of word1 and word2 into pairs (tuples). 
+        #zip() combines the elements of word1 and word2 into pairs (tuples)..
         #It returns an iterator where each item is a tuple of corresponding elements from the two input sequences.
         #If the sequences are of different lengths, zip() stops when the shorter sequence is exhausted.
         mergedOutput.extend( word1[len(word2):] or word2[len(word1):])
